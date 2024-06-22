@@ -1,0 +1,33 @@
+// {
+//   "liveSassCompile.settings.formats": [
+//     {
+//       "format": "expanded",
+//       "extensionName": ".css",
+//       "savePath": "./css/",
+//     }
+//   ],
+//   "liveServer.settings.port": 5502
+// }
+{
+  "liveSassCompile.settings.compileOnWatch": false,
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "liveSassCompile.settings.useNewCompiler": true,
+  "liveSassCompile.settings.showOutputWindowOn": "Warning",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./style/",
+      "savePathReplacementPairs": {
+        "/sass": "/style"
+      }
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": null,
+      "savePathReplacementPairs": null,
+      "generateMap": false
+    }
+  ]
+}
